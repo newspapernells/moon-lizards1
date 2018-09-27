@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MoonLizards</string>
+
+    <string name="tab_lizard1">Lizard 1</string>
+    <string name="tab_lizard2">Lizard 2</string>
+    <string name="tab_lizard3">Lizard 3</string>
+
+    <string name="preference_file_key1">com.example.android.moonlizards.PREFS_1</string>
+    <string name="preference_file_key2">com.example.android.moonlizards.PREFS_2</string>
+    <string name="preference_file_key3">com.example.android.moonlizards.PREFS_3</string>
+    <string name="title_activity_testing">TestingActivity</string>
+
+
+    <string name="hint_name">Name...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Name not saved because it is empty.</string>
+
+</resources>

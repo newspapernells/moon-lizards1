@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp" />
+
+    <TextView
+        android:id="@+id/textview_fed_status"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="well-fed:" />
+
+    <TextView
+        android:id="@+id/textview_rested_status"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="energy:" />
+
+    <TextView
+        android:id="@+id/textview_cleaned_status"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cleanliness:" />
+
+    <TextView
+        android:id="@+id/textview_happy_status"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="happiness:" />
+
+    <TextView
+        android:id="@+id/textview_age_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="life stage:" />
+
+    <TextView
+        android:id="@+id/textview_shed_xx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="shed multiplier:" />
+
+    <TextView
+        android:id="@+id/textview_fed_xx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="appetite multiplier:" />
+
+    <TextView
+        android:id="@+id/textview_cleaned_xx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="poop rate multiplier:" />
+
+    <TextView
+        android:id="@+id/textview_rested_xx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="exhaustion multiplier:" />
+
+    <TextView
+        android:id="@+id/textview_happy_xx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mood multiplier:" />
+
+    <TextView
+        android:id="@+id/textview_sleeping_bool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sleeping?" />
+
+    <TextView
+        android:id="@+id/textview_sick_bool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sick?" />
+
+    <TextView
+        android:id="@+id/textview_lights_bool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lights?" />
+
+    <TextView
+        android:id="@+id/textview_poop_bool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="poopy?" />
+
+    <TextView
+        android:id="@+id/textview_poop_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="current poops:" />
+
+    <TextView
+        android:id="@+id/textview_shed_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="current shed skins:" />
+
+
+    <TextView
+        android:id="@+id/textview_food_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="food size:" />
+
+    <TextView
+        android:id="@+id/textview_dirty_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dirty count:" />
+
+    <TextView
+        android:id="@+id/textview_mending_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mending count:" />
+
+    <TextView
+        android:id="@+id/textview_dying_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dying count:" />
+
+    <TextView
+        android:id="@+id/textview_meds_bool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="took meds today?" />
+
+    <TextView
+        android:id="@+id/textview_age_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="age:" />
+
+</LinearLayout>
